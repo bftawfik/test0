@@ -1,13 +1,14 @@
 import React from "react";
 // import LoginForm from 'Components/LoginForm/LoginForm';
 
-const LoginPage = (): JSX.Element => {
+const SignInPage = (): JSX.Element => {
+  const pageName = "Sign In";
   return (
     <div>
-      <h1>LoginPage</h1>
+      <h1>{pageName}</h1>
       {/* <LoginForm /> */}
     </div>
   );
 };
 
-export default LoginPage;
+export default SignInPage;

@@ -1,5 +1,3 @@
-import NavigationBtn from './NavigationBtn/NavigationBtn';
+import NavigationBtn from "./NavigationBtn/NavigationBtn";
 
-export {
-  NavigationBtn
-};
+export { NavigationBtn };

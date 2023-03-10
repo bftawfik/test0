@@ -10,6 +10,7 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
+    tsconfigRootDir: __dirname,
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: './tsconfig.json',
@@ -27,6 +28,7 @@ module.exports = {
   },
   rules: {
     semi: ['error', 'always'],
-    '@typescript-eslint/semi': 'off'
+    '@typescript-eslint/semi': 'off',
+    '@typescript-eslint/strict-boolean-expressions': 'off'
   }
 };
